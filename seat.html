@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="branding">
+          <img src="./images/logo.png" alt=""/>
+          <h1>Movie <span>Matic</span></h1>
+      </div>
+      <nav>
+          <a href="index.html">Home</a>
+          <a href="upcoming.html">Up Coming</a>
+          <div class="nav__select-city">
+              <p>Playing in -</p>
+              <select>
+                <option value="1">Ambon</option>
+                <option value="2">Bali</option>
+                <option value="3">Balikpapan</option>
+                <option value="4">Cirebon</option>
+                <option value="5">Gorontalo</option>
+                <option value="6">Jakarta</option>
+                <option value="7">Jambi</option>
+                <option value="8">Kediri</option>
+                <option value="9">Medan</option>                  
+                <option value="10">Mataram</option>
+                <option value="11" selected>Pontianak</option>
+                <option value="12">Palangka Raya</option>
+                <option value="13">Samarinda</option>
+                <option value="14">Serang</option>
+                <option value="15">Tarakan</option>
+                <option value="16">Tasikmalaya</option>
+                <option value="17">Tanjungpinang</option>
+                <option value="18">Tebing Tinggi</option>
+                <option value="19">Ternate</option>
+                <option value="20">Yogyakarta</option>
+              </select>
+          </div>
+      </nav>
+  </header>
+  
+  <div class="boxtitle">
+    <div class="inputgrup-lg">
+      <div class="boxseat-available"></div>
+      <span>Available</span>
+      <div class="boxseat-your-seat"></div>
+      <span>Your Seat</span>
+      <div class="boxseat-sold-out"></div>
+      <span>Sold Out</span>
+    </div>
+    <div class="seath1">
+      <h1>Missing</h1>
+      <div class="seat_title"></div>
+      <p class="p">Seat : <span>4</span></p>
+      <p class="p">Ticket : <span>1/1</span></p>
+      <p class="p">Total : <span>Rp.41.000</span></p>
+    </div>
+  </div>
+  </div>
+      <div id="seat-container">
+        <div class="seat_utama">
+        <div class="seat">1</div>
+        <div class="seat">2</div>
+        <div class="seat">3</div>
+        <div class="gap"></div>
+        <div class="seat">4</div>
+        <div class="seat">5</div>
+        <div class="seat">6</div>
+        <br>
+        <div class="seat">7</div>
+        <div class="seat">8</div>
+        <div class="seat">9</div>
+        <div class="gap"></div>
+        <div class="seat">10</div>
+        <div class="seat">11</div>
+        <div class="seat">12</div>
+        <br>
+        <div class="seat">13</div>
+        <div class="seat">14</div>
+        <div class="seat">15</div>
+        <div class="gap"></div>
+        <div class="seat">16</div>
+        <div class="seat">17</div>
+        <div class="seat">18</div>
+        <br>
+        <div class="seat">19</div>
+        <div class="seat">20</div>
+        <div class="seat">21</div>
+        <div class="gap"></div>
+        <div class="seat">22</div>
+        <div class="seat">23</div>
+        <div class="seat">24</div>
+        <h1 class="screen">SCREEN</h1>
+      </div>
+      <div id="selected-seat-container">
+        <p id="selected-seat"></p>
+      <button id="checkout"><a href="pembayaran.html">Checkout</a></button>
+    </div>
+    </div>
+    <footer>
+      <p>2023 MOVIEMATIC - PT JAYA WIJAYA. ALL RIGHTS RESERVED.</p>
+</footer>
+    <script src="script.js"></script>
+    <script src="pembayaran_script.js"></script>
+  </body>
+</html>

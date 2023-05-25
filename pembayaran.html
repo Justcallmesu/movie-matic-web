@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Pembelian Tiket Bioskop</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body class="background">
+    <header>
+        <div class="branding">
+            <img src="./images/logo.png" alt=""/>
+            <h1>Movie <span>Matic</span></h1>
+        </div>
+    </header>
+    <div class="containerpembayaran">
+
+      <h1>Pembayaran Tiket Bioskop</h1>
+  <div id="order-summary">
+    <h2>Order Summary</h2>
+    <p>Total Amount: <span id="total-amount"></span></p>
+    <div id="bank-list">
+      <label for="payment-option">Payment Option:</label>
+      <select id="payment-option">
+        <option value="mbanking">M-Banking</option>
+        <option value="ewallet">E-Wallet</option>
+      </select>
+    </div>
+    <div id="payment-details" class="payment-details">
+      <div id="mbanking-details" class="payment-option-details">
+        <label for="mbanking-bank">Bank:</label>
+        <select id="mbanking-bank">
+          <option value="BCA">BCA</option>
+          <option value="BNI">BNI</option>
+          <option value="Mandiri">Mandiri</option>
+        </select>
+      </div>
+      <div id="ewallet-details" class="payment-option-details">
+        <label for="ewallet-provider">E-Wallet Provider:</label>
+        <select id="ewallet-provider">
+          <option value="GoPay">GoPay</option>
+          <option value="OVO">OVO</option>
+          <option value="DANA">DANA</option>
+        </select>
+      </div>
+      <p>Payment Method: <span id="payment-method"></span></p>
+    </div>
+    <button id="payment-button">Pay Now</button>
+  </div>
+
+  <div id="modal" class="modal">
+    <div id="modal-content" class="modal-content"></div>
+  </div>
+  </div>
+    <script src="pembayaran_script.js"></script>
+</body>
+</html>
