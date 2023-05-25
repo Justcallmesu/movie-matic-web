@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Film - Pembelian Tiket Bioskop</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="branding">
+          <img src="./images/logo.png" alt=""/>
+          <h1>Movie <span>Matic</span></h1>
+      </div>
+      <nav>
+          <a href="index.html">Home</a>
+          <a href="upcoming.html">Up Coming</a>
+          <div class="nav__select-city">
+              <p>Playing in -</p>
+              <select>
+                  <option value="1">Ambon</option>
+                  <option value="2">Bali</option>
+                  <option value="3">Balikpapan</option>
+                  <option value="4">Cirebon</option>
+              </select>
+          </div>
+      </nav>
+          <nav class="nav__dropdown-menu">
+              <p>About Us</p>
+              <div class="nav__dropdown-menu__list">
+                <a href="https://www.google.com" target="_blank">Contact Us</a>
+              </div>
+          </nav>
+  </header>
+    <div class="film-container">
+        <h1 class="confirm">ORDER CONFIRMATION</h1>
+        <hr>
+      <div class="confirm-seat">
+        <p>Seat:<p id="confirm-selected-seat"></p></p>
+        <p>Ticket:<span></span></p>
+        <p>Administration:<span></span></p>
+        <p>Total Amount:<span></span></p>
+        <hr>
+        <div class="film-info">
+            <p>Cinema:<span></span></p>
+            <p>Studio:<span></span></p>
+            <p>Movie:<span></span></p>
+            <p>Date:<span></span></p>
+            <p>Time:<span></span></p>
+            <p>Ticket Price:<span></span></p>
+            <input type="confirmpassword" name="password" placeholder="Password">
+        </div>
+        <div class="confirmbutton">
+            <button id="confirmbuyticket"><a href="pembayaran.html">Buy Ticket</a></button>
+            <button id="cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>2023 MOVIEMATIC - PT JAYA WIJAYA. ALL RIGHTS RESERVED.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
