@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleadmin.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>MovieMatic</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="branding">
+            <img src="./images/logo.png" alt=""/>
+            <h1>Movie <span>Matic</span></h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="upcoming.html">Up Coming</a>
+            <div class="nav__select-city">
+                <p>Playing in -</p>
+                <select>
+                    <option value="1">Ambon</option>
+                    <option value="2">Bali</option>
+                    <option value="3">Balikpapan</option>
+                    <option value="4">Cirebon</option>
+                    <option value="5">Gorontalo</option>
+                    <option value="6">Jakarta</option>
+                    <option value="7">Jambi</option>
+                    <option value="8">Kediri</option>
+                    <option value="9">Medan</option>                  
+                    <option value="10">Mataram</option>
+                    <option value="11" selected>Pontianak</option>
+                    <option value="12">Palangka Raya</option>
+                    <option value="13">Samarinda</option>
+                    <option value="14">Serang</option>
+                    <option value="15">Tarakan</option>
+                    <option value="16">Tasikmalaya</option>
+                    <option value="17">Tanjungpinang</option>
+                    <option value="18">Tebing Tinggi</option>
+                    <option value="19">Ternate</option>
+                    <option value="20">Yogyakarta</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+	<main class="main">
+		<div class="content">
+			<h1>List Film</h1>
+
+			<div class="toolbar">
+				<a href="#" class="button button-primary" role="button">Input Film</a>
+			</div>
+
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Title</th>
+						<th style="width: 15%;" class="text-center">Status</th>
+						<th style="width: 25%;" class="text-center">Action</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<div>Hello World!</div>
+							<div class="text-gray"><small>12 Jan 2021<small></div>
+						</td>
+						<td class="text-center text-gray">Draft</td>
+						<td>
+							<div class="action">
+								<a href="#" class="button button-small" role="button">View</a>
+								<a href="#" class="button button-small" role="button">Edit</a>
+								<a href="#" class="button button-small button-danger" role="button">Delete</a>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div>Hello World!</div>
+							<div class="text-gray"><small>12 Jan 2021<small></div>
+						</td>
+						<td class="text-center text-green">Published</td>
+						<td>
+							<div class="action">
+								<a href="#" class="button button-small" role="button">View</a>
+								<a href="#" class="button button-small" role="button">Edit</a>
+								<a href="#" class="button button-small button-danger" role="button">Delete</a>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</main>
+</body>
+
+</html>
