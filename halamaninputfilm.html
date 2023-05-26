@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Input Film</title>
+</head>
+<body>
+    <header class="header">
+        <div class="branding">
+            <img src="./images/logo.png" alt=""/>
+            <h1>Movie <span>Matic</span></h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="upcoming.html">Up Coming</a>
+            <div class="nav__select-city">
+                <p>Playing in -</p>
+                <select>
+                    <option value="1">Ambon</option>
+                    <option value="2">Bali</option>
+                    <option value="3">Balikpapan</option>
+                    <option value="4">Cirebon</option>
+                    <option value="5">Gorontalo</option>
+                    <option value="6">Jakarta</option>
+                    <option value="7">Jambi</option>
+                    <option value="8">Kediri</option>
+                    <option value="9">Medan</option>                  
+                    <option value="10">Mataram</option>
+                    <option value="11" selected>Pontianak</option>
+                    <option value="12">Palangka Raya</option>
+                    <option value="13">Samarinda</option>
+                    <option value="14">Serang</option>
+                    <option value="15">Tarakan</option>
+                    <option value="16">Tasikmalaya</option>
+                    <option value="17">Tanjungpinang</option>
+                    <option value="18">Tebing Tinggi</option>
+                    <option value="19">Ternate</option>
+                    <option value="20">Yogyakarta</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+    <h2>INPUT FILM KE DALAM DATABASE</h2>
+<form id="post_film">
+    <table>
+        <tr>
+            <td>Judul Film</td>
+            <td><input type="text" id="judul_film" name="judul_film"></td>
+        </tr>
+        <tr>
+            <td>Durasi Film</td>
+            <td><input type="number" id="durasi_film" name="durasi_film"></td>
+        </tr>
+        <tr>
+            <td>Jam Tayang</td>
+            <td><textarea id="jam_tayang" name="jam_tayang"></textarea></td>
+        </tr>
+        <tr>
+            <td>Harga Tiket</td>
+            <td><input type="number" id="harga_tiket" name="harga_tiket"></td>
+        </tr>
+        <tr>
+            <td>Deskripsi</td>
+            <td><textarea name="deskripsi" id="deskripsi"></textarea></td>
+        </tr>
+        <tr>
+            <td>Poster Film</td>
+            <td><input type="file" id="poster_film" accept="image/*" name="poster_film"></td>
+        </tr>
+        <tr>
+            <td>Trailer</td>
+            <td><input type="text" id="trailer" name="trailer"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Post Film"></td>
+        </tr>
+    </table>
+</form>
+<script src="postfilm.js"></script>
+</body>
+</html>

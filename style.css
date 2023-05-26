@@ -29,7 +29,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     padding: 0 15px 0 15px;
-    position: fixed;/*trik posisi fix*/
+    position: sticky;/*trik posisi fix*/
     top: 0;
 	  z-index: 9999;
     width: 100%;
